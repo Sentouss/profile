@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+
+body {
+  background-color: #F7F9FC ;
+  color: #344e41 ;
+  font-family: 'Roboto', sans-serif ;
+  font-size: 17px ;
+  line-height: normal ;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px ;
+}
+
+h2 {
+  color: #588157 ;
+}
+
+p {
+  font-family: 'Lora', serif ;
+  font-size: 17px ;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius : 60%;
+  width: 150px ;
+}
+
+a {
+  color: #a98467 ;
+  text-decoration: none ;
+}
+
+.container {
+  width: 800px;        /* Set the width */
+  margin: 0 auto;      /* Set automatic margins on right/left */
+}
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  border: 0.5px solid lightgrey;
+  margin: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-brown {
+  padding: 15px 20px ;
+  border-radius: 4px;
+  background-color: #a98467 ;
+  color: white ;
+}
+
+.btn-brown:hover {
+  background-color: black;
+}
